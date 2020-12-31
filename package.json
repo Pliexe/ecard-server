@@ -1,0 +1,23 @@
+{
+    "name": "ecard-server",
+    "version": "1.0.0",
+    "description": "Ecard server for ecard multiplayer",
+    "main": "dist/server.js",
+    "repository": "https://github.com/Pliexe/ecard-server.git",
+    "author": "László-zsolt Szabadi <42877326+Pliexe@users.noreply.github.com>",
+    "scripts": {
+        "dev": "ts-node-dev src/server.ts -rs"
+    },
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "@types/node": "^14.14.17",
+        "@types/ws": "^7.4.0",
+        "ts-node-dev": "^1.1.1",
+        "typescript": "^4.1.3"
+    },
+    "dependencies": {
+        "http": "^0.0.1-security",
+        "ws": "^7.4.2"
+    }
+}
